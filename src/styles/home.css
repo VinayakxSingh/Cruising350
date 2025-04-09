@@ -1,0 +1,102 @@
+.home-container {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/* Hero Section (Slideshow container) */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure Slideshow takes full width and height */
+.slideshow-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; /* Centers images */
+  justify-content: center;
+}
+
+/* Fix image cut-off issue */
+.slideshow-container img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain; /* Keeps full image visible */
+}
+
+/* Overlay for Text on Slideshow */
+.hero-overlay {
+  position: relative;
+ left: 685px;
+
+; font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight :600px;;
+font-style: normal;
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  color: gold;
+}
+
+.hero-overlay p {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-size: 1.5rem;
+ /* background:rgb(237,237,237);
+  */color: black;
+}
+
+.shop-now {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.shop-now:hover {
+  background-color: darkgoldenrod;
+}
+
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color:#333; /* Light background for features */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.feature-box {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature-box h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-box p {
+    color: #666;
+}
